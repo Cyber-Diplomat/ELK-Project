@@ -1,0 +1,11 @@
+ 
+
+
+A description of the deployment
+
+Main goal of this deployment is to peer priviouse Red_Team network with with a sepearte ElkVNet and a add a ElK server, where we could expose a dockera docker
+This vm would be used to run a playbook to install several packege python-pip. Since python would requried Ansible to manage the state of Docker container, we had to download
+sebp/elk:761, after configuring the config file to port mapping to 5601:5601 we started the container to expose it to the internet (kibana) Kibana  Based translator  started to collect log and another 
+forms of Data from the designated webservers.  
+ 
+
